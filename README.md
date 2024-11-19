@@ -3,9 +3,13 @@
 This project runs API and manages their endpoints to apply coupons to an e-commerce website.
 
 Each coupon has the following three mandatory fields-
+
   1- ID
+  
   2- Type of Coupon
+  
   3- Details of the coupon
+  
 
 An in-memory database is used to serve to store the coupons.  
 END-POINTS:
@@ -41,5 +45,7 @@ Types of Coupon:
       
   Unimplemented-
       Payment Method: Apply a discount if a specific payment mode is chosen.
+**Installation and Run**
 
-
+Install Expressjs, bode-parser and nodemon using npm
+Run nodemon ./server.js in the folder
