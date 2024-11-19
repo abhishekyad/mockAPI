@@ -40,7 +40,7 @@ Types of Coupon:
       
       ● Product-wise: Apply a discount to specific products.
       
-      ● BxGy: “Buy X, Get Y” deals with a repetition limit and can be applicable to a set
+      ● BxGy: “Buy X, Get Y” deals can be applicable to a set
       of products
       
   Unimplemented-
