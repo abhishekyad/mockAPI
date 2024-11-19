@@ -1,0 +1,1 @@
+[{"id":1,"type":"cart-wise","details":{"threshold":100,"discount":10}},{"id":2,"type":"product-wise","details":{"product_id":1,"discount":20}},{"id":3,"type":"bxgy","details":{"buy_products":[{"product_id":1,"quantity":3},{"product_id":2,"quantity":3}],"get_products":[{"product_id":3,"quantity":1}],"repition_limit":2}},{"name":"DIDI","id":2}]
