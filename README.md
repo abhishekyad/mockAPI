@@ -52,3 +52,6 @@ Types of Coupon:
 Install Expressjs, bode-parser and nodemon using npm
 
 Run nodemon ./server.js in the folder
+
+<img width="1440" alt="Screenshot 2024-11-19 at 2 46 23 PM" src="https://github.com/user-attachments/assets/4214a496-09f8-4cfd-ba26-8e7084c3f86c">
+
