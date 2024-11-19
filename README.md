@@ -45,6 +45,8 @@ Types of Coupon:
       
   Unimplemented-
       Payment Method: Apply a discount if a specific payment mode is chosen.
+
+  Error Handling is implemented to retrieve and post coupons. Invalid Coupons cannot be applied. Also, a new coupon with a duplicate ID cannot be created.
 **Installation and Run**
 
 Install Expressjs, bode-parser and nodemon using npm
