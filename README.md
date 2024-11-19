@@ -48,4 +48,5 @@ Types of Coupon:
 **Installation and Run**
 
 Install Expressjs, bode-parser and nodemon using npm
+
 Run nodemon ./server.js in the folder
