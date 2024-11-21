@@ -11,7 +11,10 @@ Each coupon has the following three mandatory fields-
   3- **Details** of the coupon, which vary among the types of the coupon
 
 An in-memory database is used to serve to store the coupons. The file **database.json** stores the array of all coupons.  To promote simplicity, a randomly initialized cart is provided to perform data manipulation.
+
+
 **END-POINTS IMPLEMENTED/ PARTIALLY IMPLEMENTED:**
+
 
 
 Implemented-
@@ -28,7 +31,10 @@ Implemented-
 ● POST /applicable-coupons: Fetch all applicable coupons for a given cart and
 calculate the total discount that will be applied by each coupon. With the cart randomly initialized in the code(server.js), this end point returns an array of all coupon instances that are valid. This includes coupons of all types. The returned output contains coupon objects with their **ID, type and details**.
 
+
 Partially Implemented- (the partial implementation is due to the endpoint returning the Discount value and **NOT** the updated cart.)
+
+
 ● POST /apply-coupon/{id}: Apply a specific coupon to the cart and **return the discount obtained**. This endpoint calculates the total discount by any type of coupon(cart-wise, product-wise or BxGy) on the given cart and returns the **numeric discount** that is achieved.
  **Note**- The discounts in the discount field of the object coupon is considered **ABSOLUTE and NOT RELATIVE(percentage)**. That is, if the discount field of a coupon object is set to 40, it means the discount available is INR(or other currency) 40 and 40%. Hence the discount returned by the API is also ABSOLUTE.
 
