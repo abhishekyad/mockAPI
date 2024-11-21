@@ -31,8 +31,8 @@ Implemented-
 ● POST /applicable-coupons: Fetch all applicable coupons for a given cart and
 calculate the total discount that will be applied by each coupon. With the cart randomly initialized in the code(server.js), this end point returns an array of all coupon instances that are valid. This includes coupons of all types. The returned output contains coupon objects with their **ID, type and details**.
 
-_
-Partially Implemented_- (the partial implementation is due to the endpoint returning the Discount value and **NOT** the updated cart.)
+
+**Partially Implemented**- (the partial implementation is due to the endpoint returning the Discount value and **NOT** the updated cart.)
 
 
 ● POST /apply-coupon/{id}: Apply a specific coupon to the cart and **return the discount obtained**. This endpoint calculates the total discount by any type of coupon(cart-wise, product-wise or BxGy) on the given cart and returns the **numeric discount** that is achieved.
